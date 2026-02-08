@@ -16,7 +16,7 @@ app.use(cors({
 // MongoDB Connection
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://yuvrajrathi2005_db_user:Hrms2024@cluster0.cdaqjhy.mongodb.net/hrms-lite?retryWrites=true&w=majority';
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://yuvrajrathi2005_db_user:Hrms2024@cluster0.cdaqjhy.mongodb.net/hrms-lite?retryWrites=true&w=majority';
+
 
 console.log('🔍 MONGODB_URI:', MONGODB_URI);
 
